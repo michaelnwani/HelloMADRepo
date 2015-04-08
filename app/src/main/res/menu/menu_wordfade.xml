@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/split"
+        android:title="@string/split_label"
+        android:alphabeticShortcut="@string/settings_shortcut" />
+    <item android:id="@+id/dump"
+        android:title="@string/dump_label"
+        android:alphabeticShortcut="@string/dump_shortcut" />
+    <item android:id="@+id/up"
+        android:title="@string/up_label"
+        android:alphabeticShortcut="@string/up_shortcut" />
+    <item android:id="@+id/down"
+        android:title="@string/down_label"
+        android:alphabeticShortcut="@string/down_shortcut" />
+    <item android:id="@+id/right"
+        android:title="@string/right_label"
+        android:alphabeticShortcut="@string/right_shortcut" />
+    <item android:id="@+id/left"
+        android:title="@string/left_label"
+        android:alphabeticShortcut="@string/left_shortcut" />
+    <item android:id="@+id/quit"
+        android:title="@string/quit_label"
+        android:alphabeticShortcut="@string/quit_shortcut" />
+    <item android:id="@+id/pause"
+        android:title="@string/pause_label"
+        />
+    <item android:id="@+id/resume"
+        android:title="@string/resume_label"
+        />
+
+</menu>

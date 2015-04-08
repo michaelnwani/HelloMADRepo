@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NUMAD15S-MichaelNwani</string>
+    <string name="hello_world">In AboutActivity!</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_name">Michael Nwani</string>
+    <string name="about_button">About Me</string>
+    <string name="error_button">Generate Error</string>
+    <string name="sudoku_button">Play Sudoku</string>
+    <string name="quit_button">Quit</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="aboutme_description">Michael Nwani - Photograph</string>
+
+
+    <string name="sudoku_app_name">Sudoku</string>
+    <string name="main_title">Android Sudoku</string>
+    <string name="continue_label">Continue</string>
+    <string name="new_game_label">New Game</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+
+    <string name="settings_label">Settings...</string>
+    <string name="settings_title">Sudoku settings</string>
+    <string name="settings_shortcut">s</string>
+    <string name="music_title">Music</string>
+    <string name="music_summary">Play background music</string>
+    <string name="hints_title">Hints</string>
+    <string name="hints_summary">Show hints during play</string>
+
+    <string name="new_game_title">Difficulty</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+
+    <string name="game_title">Game</string>
+    <string name="no_moves_label">No moves</string>
+    <string name="keypad_title">Keypad</string>
+
+    <string name="about_title">About Android Sudoku</string>
+   <string name="about_text">\
+Sudoku is a logic-based number placement puzzle.
+Starting with a partially completed 9x9 grid, the
+objective is to fill the grid so that each
+row, each column, and each of the 3x3 boxes
+(also called <i>blocks</i>) contains the digits
+1 to 9 exactly once.
+</string>
+
+    <string name="dictionary_title">Test Dictionary</string>
+    <string name="dictionary_button">Dictionary</string>
+    <string name="my_hint">Enter characters here...</string>
+    <string name="back_text">Return to menu</string>
+    <string name="acknowledgement_text">Acknowledgements</string>
+    <string name="clear_text">Clear</string>
+    <string name="dictionary_acknowledgements">\
+        1) I have no images/icons/graphics I didn\'t design myself.\n 2) I got inspiration for my readFile() from: http://stackoverflow.com/questions/14376807/how-to-read-write-string-from-a-file-in-android.\n 3) I didn\'t ask anyone for help.</string>
+    <string name="loading_text">\
+    Loading... please wait</string>
+    <string name="letterpad_title">Letter Rack</string>
+    <string name="wordfade_button">Word Game</string>
+    <string name="dump_shortcut">d</string>
+    <string name="split_label">Split!</string>
+    <string name="dump_label">Dump!</string>
+    <string name="dumppad_title">Enter the letter to discard</string>
+    <string name="dumppad_text">Discard Letter: </string>
+    <string name="dump_button_text">Dump!</string>
+    <string name="split_button_text"></string>
+    <string name="splitpad_text"></string>
+    <string name="dump_not_allowed">Need 18 letters or less to dump!</string>
+    <string name="split_not_allowed">Need less than 21 letters in your rack</string>
+    <string name="words_must_be_connected">Words must be connected</string>
+    <string name="up_shortcut">w</string>
+    <string name="down_shortcut">s</string>
+    <string name="left_shortcut">a</string>
+    <string name="right_shortcut">d</string>
+    <string name="up_label">up</string>
+    <string name="down_label">down</string>
+    <string name="right_label">right</string>
+    <string name="left_label">left</string>
+    <string name="game_over">Game Over!</string>
+    <string name="game_over2">Game over from having negative points!</string>
+    <string name="quit_label">Quit</string>
+    <string name="quit_shortcut">q</string>
+    <string name="pause_label">Pause</string>
+    <string name="resume_label">Resume</string>
+    <string name="wf_acknowledgement_button">Acknowledgements</string>
+    <string name="instructions_button">How to Play</string>
+    <string name="begin_game_button">Play!</string>
+    <string name="exit_button">Exit</string>
+    <string name="wf_acknowledgement_text">Online Help 1:\n http://stackoverflow.com/questions/363681/generating-random-integers-in-a-range-with-java \n
+    Online Help 2:\n http://stackoverflow.com/questions/9030268/set-visibility-in-menu-programatically-android \n
+    Other help suggestions came from TA\'s Ameya and Zhongjie.
+
+    </string>
+    <string name="wf_instructions_text">Use your letters rack to make as many words as possible by connecting letters together! \n
+        Just tap a tile with your finger to open your rack, and tap on a letter to place the letter on the rack. \n
+        When you make a word, you have 10 seconds to make another word before time runs out and it\'s game over!</string>
+    <string name="music_options">Music Options</string>
+    <string name="on_label">On</string>
+    <string name="off_label">Off</string>
+
+    <string name="communication_button">Communication</string>
+
+
+    <string name="register">Register</string>
+    <string name="unregister">Unregister</string>
+    <string name="send_label">Send</string>
+    <string name="clear_label">Clear</string>
+    <string name="communication_ack_text">Got a lot of help using TA\'s GCMSample code: \n https://www.dropbox.com/s/1ca278zojj3zkqj/NUMAD15S-GCMSampleDemo.zip?dl=0 \n
+        Also the ParseSample code from Github: \n https://github.com/zhongjieM/ParseSample</string>
+    <string name="two_player_wordfade_button">Two Player Word Game</string>
+    <string name="enter_player_name">Enter your player name:</string>
+    <string name="trickiest_part_button">Trickiest Part.</string>
+    <string name="trickiest_part_text">\
+        The trickiest part of the project to construct that makes us think \"are we going to be able to do that?\" is setting up the connection between players through their contacts (i.e. their friends list). Essentially how we\'re thinking this will work is: \n
+        1) When a player opens the app, using ContactsContract.Profile (and the "READ_PROFILE", "READ_CONTACTS" permissions), \n
+        we store their display_name (unique to their phone) in a database (Parse at this point). It\'s viable because this app could only be downloaded \n
+        from the Google Play Store, for which they need an account.\n
+        2) When a user clicks on the menu button to go to their friends board, we\'re constructing it so that we pull from their contacts list and \n
+        cross-examine the contact names with the display names gathered previously. Those results will be the only \"friends\" we display in a dialog. \n
+        (we may store phone numbers instead because they\'re very highly unique, but I thought this would do for demonstration purposes).\n
+        3) When a user taps on a friend in the ListView-like structure result, they\'ll be taken to that friends food board, i.e. pulling lots of data from \n
+        a database that simulates the appearance of \"travelling to their friends board\".</string>
+    <string name="trickiest_part_contacts_button">Click to see contacts</string>
+
+
+</resources>

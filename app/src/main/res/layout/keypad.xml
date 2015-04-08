@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<TableLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/keypad"
+   android:orientation="vertical"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:stretchColumns="*">
+   <TableRow>
+      <Button android:id="@+id/keypad_1"
+         android:text="A">
+      </Button>
+      <Button android:id="@+id/keypad_2"
+         android:text="B">
+      </Button>
+      <Button android:id="@+id/keypad_3"
+         android:text="C">
+      </Button>
+       <Button android:id="@+id/keypad_4"
+           android:text="D">
+       </Button>
+       <Button android:id="@+id/keypad_5"
+           android:text="E">
+       </Button>
+   </TableRow>
+   <TableRow>
+      <Button android:id="@+id/keypad_6"
+         android:text="F">
+      </Button>
+      <Button android:id="@+id/keypad_7"
+         android:text="G">
+      </Button>
+      <Button android:id="@+id/keypad_8"
+         android:text="H">
+      </Button>
+       <Button android:id="@+id/keypad_9"
+           android:text="I">
+       </Button>
+       <Button android:id="@+id/keypad_10"
+           android:text="J">
+       </Button>
+   </TableRow>
+   <TableRow>
+      <Button android:id="@+id/keypad_11"
+         android:text="K">
+      </Button>
+      <Button android:id="@+id/keypad_12"
+         android:text="L">
+      </Button>
+      <Button android:id="@+id/keypad_13"
+         android:text="M">
+      </Button>
+       <Button android:id="@+id/keypad_14"
+           android:text="N">
+       </Button>
+       <Button android:id="@+id/keypad_15"
+           android:text="O">
+       </Button>
+   </TableRow>
+    <TableRow>
+        <Button android:id="@+id/keypad_16"
+            android:text="P">
+        </Button>
+        <Button android:id="@+id/keypad_17"
+            android:text="Q">
+        </Button>
+        <Button android:id="@+id/keypad_18"
+            android:text="R">
+        </Button>
+        <Button android:id="@+id/keypad_19"
+            android:text="S">
+        </Button>
+        <Button android:id="@+id/keypad_20"
+            android:text="T">
+        </Button>
+        <Button android:id="@+id/keypad_21"
+            android:text="U">
+        </Button>
+    </TableRow>
+
+</TableLayout>

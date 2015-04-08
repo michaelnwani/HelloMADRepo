@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/about_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/about_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/error_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/error_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/sudoku_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/sudoku_button"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/dictionary_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/dictionary_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/wordfade_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/wordfade_button"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/communication_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/communication_button"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/two_player_wordfade_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/two_player_wordfade_button"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/trickiest_part_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/trickiest_part_button"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/quit_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/quit_button"
+            android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
