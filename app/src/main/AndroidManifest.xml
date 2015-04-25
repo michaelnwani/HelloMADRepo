@@ -79,6 +79,10 @@
             android:label="@string/game_title"/>
         <activity android:name=".DictionaryActivity"
             />
+        <activity android:name=".DescriptionActivity"
+            />
+        <activity android:name=".AcknowledgementsActivity"
+            />
 
 
         <service android:name="com.parse.PushService" />

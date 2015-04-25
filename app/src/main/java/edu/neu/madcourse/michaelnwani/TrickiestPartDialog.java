@@ -33,15 +33,18 @@ public class TrickiestPartDialog extends Dialog {
         setContentView(R.layout.dialog_trickiest_part);
 
         try{
-            final Cursor c = context.getContentResolver().query(ContactsContract.Contacts.CONTENT_URI, null, null, null, null);
+//            final Cursor c = context.getContentResolver().query(ContactsContract.Contacts.CONTENT_URI, null, null, null, null);
+            final Cursor c = context.getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, null, null, null, null);
 
             c.moveToFirst();
             while (!c.isLast()){
-                contactsList.add(c.getString(c.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME)));
+//                contactsList.add(c.getString(c.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME)));
+                contactsList.add(c.getString(c.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER)));
                 c.moveToNext();
             }
 //            mTextViewDisplayName.setText(c.getString(c.getColumnIndex(ContactsContract.Profile.DISPLAY_NAME)));
-            contactsList.add(c.getString(c.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME)));
+//            contactsList.add(c.getString(c.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME)));
+            contactsList.add(c.getString(c.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER)));
             c.close();
         }
         catch (Exception e){

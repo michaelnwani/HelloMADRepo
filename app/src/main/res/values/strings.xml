@@ -123,6 +123,65 @@ row, each column, and each of the 3x3 boxes
         3) When a user taps on a friend in the ListView-like structure result, they\'ll be taken to that friends food board, i.e. pulling lots of data from \n
         a database that simulates the appearance of \"travelling to their friends board\".</string>
     <string name="trickiest_part_contacts_button">Click to see contacts</string>
+    <string name="final_project_button">Final Project</string>
+    <string name="app_icon">App Icon</string>
+    <string name="food_crunch_icon"><a href="https://thenounproject.com/term/food/18874/">Food</a></string>
+    <string name="michael_loupos">Created by <a href="https://thenounproject.com/mikeydoesit/">Michael Loupos</a> from <a href="http://thenounproject.com/">The Noun Project</a></string>
+    <string name="start_app">Start App</string>
+    <string name="check_mark_icon">Check Mark Icon</string>
+    <string name="check"><a href="https://thenounproject.com/term/check/29929/">Check</a></string>
+    <string name="mourad_mokrane">Created by <a href="https://thenounproject.com/molumen/">Mourad Mokrane</a> from <a href="http://thenounproject.com/">The Noun Project</a></string>
+    <string name="lock_icon">Lock Icon</string>
+    <string name="lock"><a href="https://thenounproject.com/term/lock/5704/">Lock</a></string>
+    <string name="sam_smith">Created by <a href="https://thenounproject.com/samsmith/">Sam Smith</a> from  <a href="http://thenounproject.com/">The Noun Project</a></string>
+    <string name="leaf_icon">Leaf Icon</string>
+    <string name="leaf"><a href="https://thenounproject.com/icon/10317/file-options/">Leaf</a></string>
+    <string name="remy_medard">Created by <a href="https://thenounproject.com/catalarem/">Rémy Médard</a> from  <a href="http://thenounproject.com/">The Noun Project</a></string>
+    <string name="comment_icon">Comment Icon</string>
+    <string name="comment"><a href="https://thenounproject.com/term/comment/38797/">Comment</a></string>
+    <string name="eugen_belyakoff">Created by <a href="https://thenounproject.com/eugen.belyakoff/">Eugen Belyakoff</a> from  <a href="http://thenounproject.com/">The Noun Project</a></string>
+    <string name="trash_icon">Trash Icon</string>
+    <string name="trash"><a href="https://thenounproject.com/term/trash/16505/">Trash</a></string>
+    <string name="filip_malinowski">Created by <a href="https://thenounproject.com/fmal/">Filip Malinowski</a> from  <a href="http://thenounproject.com/">The Noun Project</a></string>
+    <string name="previous_week">Previous Week</string>
+    <string name="next_week">Next Week</string>
+    <string name="M">M</string>
+    <string name="T">T</string>
+    <string name="W">W</string>
+    <string name="F">F</string>
+    <string name="S">S</string>
+    <string name="capturing_photos">Capturing Photos</string>
+    <string name="taking_photos_simply"><a href="http://developer.android.com/training/camera/photobasics.html">Taking Photos Simply</a></string>
+    <string name="google">Google</string>
+    <string name="custom_dialog">Custom Dialog</string>
+    <string name="creating_a_custom_dialog"><a href="http://developer.android.com/guide/topics/ui/dialogs.html#CustomLayout">Creating a Custom Layout</a></string>
+    <string name="pin">Pin</string>
+    <string name="pin_photo">Pin Photo</string>
+    <string name="view_photo">View Photo</string>
+    <string name="add_tag">add tag...</string>
+    <string name="tag">tag</string>
+    <string name="delete_photo_prompt">Delete this Photo?</string>
+    <string name="delete">Delete</string>
+    <string name="dont_delete">Don\'t Delete</string>
+    <string name="add_comment">Add Comment</string>
+    <string name="cancel">Cancel</string>
+    <string name="comment_hint">Write a comment...</string>
+    <string name="cc_license">Licensed under Creative Commons by Attribution 3.0</string>
+    <string name="cc2_5_license">Licensed under Creative Commons Attribution 2.5</string>
+    <string name="description">
+        The most nutritious game ever!\n\n
+        Food Crunch is brand new diet app that lets you track your daily eating habits and see your meal progress from week to week!\n\n
+        Going to eat a chocolate bar or a banana? Apple pie or avocados? Pin the food on your food board!\n\n
+        Food Crunch is 100% FREE to play.\n\n
+        HOW IT WORKS: Simply download the app and tell us your average meal eating time and we\'ll take you to your food board of the week, divided into tiles and by weekday. Tap a tile to open your phone camera, and snap a photo of your food, after which that food will be in that tile.\n\n
+        Whether your goal is to lose weight or simply track your eating habits, Food Crunch has you covered. You\'ll be heading healthier before you know it.\n\n
+        FEATURES:\n\n
+        - Rankings to compare your eating habits to your friends.\n
+        - A Notification System to send a helpful reminder at your breakfast, lunch or dinner times to pin your food on your food board.\n
+        - One button press to view next weeks, or your previous weeks food boards.\n
+        - Game Achievements.
+    </string>
+    <string name="acknowledgements">Acknowledgements</string>
 
 
 </resources>

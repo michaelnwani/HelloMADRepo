@@ -31,6 +31,8 @@ public class MainActivity extends Activity {
     private Button mCommunicationButton;
     private Button mTwoPlayerWordFadeButton;
     private Button mTrickiestPartButton;
+    private Button mFinalProjectButton;
+
     public static String playerNameInMain;
     public static ConnectivityManager connectivityManager;
 
@@ -61,6 +63,8 @@ public class MainActivity extends Activity {
         mTwoPlayerWordFadeButton = (Button)findViewById(R.id.two_player_wordfade_button);
 
         mTrickiestPartButton = (Button)findViewById(R.id.trickiest_part_button);
+
+        mFinalProjectButton = (Button)findViewById(R.id.final_project_button);
 
         mAboutButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -155,6 +159,16 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(MainActivity.this, TrickiestPartActivity.class);
+                startActivity(intent);
+            }
+
+        });
+
+        mFinalProjectButton.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, DescriptionActivity.class);
                 startActivity(intent);
             }
 
